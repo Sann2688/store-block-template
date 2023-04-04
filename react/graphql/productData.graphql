@@ -1,0 +1,6 @@
+query productData($slug: String){
+  product(slug: $slug) {
+    releaseDate
+    productName
+  }
+}

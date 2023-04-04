@@ -1,9 +1,9 @@
 {
-  "vendor": "vtex",
-  "name": "countdown",
+  "vendor": "smilepartnerfr",
+  "name": "test-component",
   "version": "0.0.1",
-  "title": "Countdown",
-  "description": "Countdown component",
+  "title": "Test Component",
+  "description": "Test Component description",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",
@@ -11,6 +11,8 @@
     "react": "3.x"
   },
   "dependencies": {
+    "vtex.search-graphql": "0.x",
+    "vtex.product-context": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.css-handles": "0.x"
   },
